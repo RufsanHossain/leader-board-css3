@@ -4,9 +4,14 @@
 
 /* common styles or utilities */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
 }
 
 main {
@@ -17,11 +22,11 @@ main {
 
 .container {
   background-color: #ffffff;
-  width: 100%;
-  max-width: 870px;
   padding: 30px;
   margin-top: 21px;
   border-radius: 5px;
+  width: 100%;
+  max-width: 870px;
 }
 
 hr {
@@ -29,7 +34,49 @@ hr {
   margin-bottom: 27px;
 }
 
-/* top players style */
+/* header styles */
+header {
+  background-color: #562eff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 870px;
+  padding: 30px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left img {
+  width: 40.42px;
+  height: 51px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.idea {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* top players styles */
 
 .top-players {
   margin-bottom: 30px;
