@@ -185,6 +185,18 @@ nav {
   color: #aeaeae;
 }
 
+.course-duration {
+  background-color: #ffe4e8;
+  color: #ff4a60;
+  width: 94.83px;
+  height: 29.38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14.69px;
+  gap: 6px;
+}
+
 /* Media Queries */
 
 /* mobile devices */
